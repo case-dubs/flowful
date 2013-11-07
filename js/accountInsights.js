@@ -12,7 +12,9 @@ $(document).ready(function() {
 				var SamuelData = Samuel.entries;
 				console.log(SamuelData);
 				var Aniela = myData.people.Aniela;
-				alivenessStats(SamuelData);
+				var AnielaData = Aniela.entries;
+				//alivenessStats(SamuelData);
+				peopleStats(SamuelData);
 			});
 
 });
@@ -86,28 +88,151 @@ function alivenessStats(individualUserData){
 
 }
 
+
 //Calculates and display on page basic people stats for the time range selected
-function peopleStats(){
+function peopleStats(individualUserData){
 
-	//Categories: alone, core, acquaintances, strangers, colleagues [for starters, let's group singular and plural instances - eg: colleague and colleagues to see what that data looks like]
+	//GOAL OF THIS FUNCTION IS TO DETERMINE: 
+	//1.Greatest happiness on avg. w/
+	//2.Lowest happiness on avg. w/
+	//3.Least frequently w/
+	//4.. Most frequently w/: 
+	//TO BE CONSTRUCTED...5. Comparing happiness level by people type depending on whether a user is w/ one person of that type vs. a group (eg: colleague vs. colleagues)
 
-	//Most frequently w/: 
 
-	//Greatest happiness on avg. for time range with, if available, must be 3 times to ensure that it isn't an outlier, when user is with...
-
-	//Lowest aliveness w/
-
-}
-
-function activityCategorySorter(individualUserData){
+	//1. Categories: alone, core, acquaintances, strangers, colleagues [for starters, let's group singular and plural instances - eg: colleague and colleagues to see what that data looks like]
+	//declare variables for each people category (and singular and plural for each category) and counters for each 
+	var aloneCounter = 0;
+	var aloneAlivenessTotal = 0;
+	var coresCounter = 0;
+	var coresTotal = 0;
+	var coreCounter = 0;
+	var coreTotal = 0;
+	var coreCategoryTotal = 0;
+	var coreCategoryTotal = 0;
+	var acquaintancesCounter = 0;
+	var acquaintancesTotal = 0;
+	var acquaintanceCounter = 0;
+	var acquaintanceTotal = 0;
+	var acquaintancesCategoryTotal = 0;
+	var colleaguesCounter = 0;
+	var colleaguesTotal = 0;
+	var colleagueCounter = 0;
+	var colleagueTotal = 0;
+	var colleaguesCategoryTotal = 0;
+	var strangersCounter = 0;
+	var strangersTotal = 0;
+	var strangerCounter = 0;
+	var strangerTotal = 0;
+	var strangersCategoryTotal = 0;
 
 	//for loop through all of the activities
-	for (var i = 0; i<individualUserData.length;i++){
-		if(individualUserData[i].match/core/){
-			//blah...
+	//Calculate the number of times user was in a particular category when reporting, add the aliveness level reported during each of those instances to a total for that category...to then be divided by the number of instances counter.
+	for (var i = 0; i<individualUserData.length; i++){
+		if(individualUserData[i].people.match(/alone/)) {
+			aloneCounter++;
+			aloneAlivenessTotal += parseInt(individualUserData[i].aliveness);
+
+		}
+		else if(individualUserData[i].people.match(/cores/)){
+			coresCounter++;
+			coresTotal += parseInt(individualUserData[i].aliveness);
+			coreCategoryTotal += parseInt(individualUserData[i].aliveness);
+		}
+		else if(individualUserData[i].people.match(/core/)){
+			coreCounter++;
+			coreTotal += parseInt(individualUserData[i].aliveness);
+			coreCategoryTotal += parseInt(individualUserData[i].aliveness);
+		}
+		else if(individualUserData[i].people.match(/acquaintances/)){
+			acquaintancesCounter++;
+			acquaintancesTotal += parseInt(individualUserData[i].aliveness);
+			acquaintancesCategoryTotal += parseInt(individualUserData[i].aliveness);
+		}
+		else if(individualUserData[i].people.match(/acquaintance/)){
+			acquaintanceCounter++;
+			acquaintanceTotal += parseInt(individualUserData[i].aliveness);
+			acquaintancesCategoryTotal += parseInt(individualUserData[i].aliveness);
+			
+		}
+		else if(individualUserData[i].people.match(/colleagues/)){
+			colleaguesCounter++;
+			colleaguesTotal += parseInt(individualUserData[i].aliveness);
+			colleaguesCategoryTotal += parseInt(individualUserData[i].aliveness);
+		}
+		else if(individualUserData[i].people.match(/colleague/)){
+			colleagueCounter++;
+			colleagueTotal += parseInt(individualUserData[i].aliveness);
+			colleaguesCategoryTotal += parseInt(individualUserData[i].aliveness);
+		}		
+		else if(individualUserData[i].people.match(/strangers/)){
+			strangersCounter++;
+			strangersTotal += parseInt(individualUserData[i].aliveness);
+			strangersCategoryTotal += parseInt(individualUserData[i].aliveness);
+		}
+		else if(individualUserData[i].people.match(/stranger/)){
+			strangerCounter++;
+			strangerTotal += parseInt(individualUserData[i].aliveness);
+			strangersCategoryTotal += parseInt(individualUserData[i].aliveness);
 		}
 	}
-}
+	
+	//Determine the number of instances reported for each people category type by adding up the 1-1, group counters for each category
+	var coreTotalCounter = coreCounter + coresCounter;
+	var acquaintancesTotalCounter = acquaintancesCounter + acquaintanceCounter;
+	var colleaguesTotalCounter = colleaguesCounter + colleagueCounter;
+	var strangersTotalCounter = strangersCounter + strangersCounter;
+
+	//Calculate the average happiness level by people type
+	var aloneAlivenessAvg = (aloneAlivenessTotal/aloneCounter);
+	var coreAlivenessAvg = (coreCategoryTotal/coreTotalCounter);
+	var acquaintancesAlivenessAvg = (acquaintancesCategoryTotal/acquaintancesTotalCounter);
+	var colleaguesAlivenessAvg = (colleaguesCategoryTotal/colleaguesTotalCounter);
+	var strangersAlivenessAvg = (strangersCategoryTotal/strangersTotalCounter);
+
+	///Create an Object that contains average happiness for each activity type, to then sort which one was is the highest and lowest
+	var alivenessObject = {'Alone': aloneAlivenessAvg, 'Core': coreAlivenessAvg, 'Acquaintances': acquaintancesAlivenessAvg, 'Colleagues': colleaguesAlivenessAvg, 'Strangers': strangersAlivenessAvg};
+	//create a new object that will hold the sorted people frequencies from highest to lowest
+	var alivenessSorter = [];
+	for (var value in alivenessObject){
+		alivenessSorter.push([value, alivenessObject[value]]);
+		alivenessSorter.sort(function(a, b) {return a[1] - b[1]});
+	};
+	console.log(alivenessSorter);
+	//Check whether any of the AlivenessAvg's have a value of "Infinity", which would mean there were 0 instances that they were reported. 
+	//If "Infinity" exists, remove that from the Object-array
+	if(alivenessSorter[(alivenessSorter.length-1)][1] == 'Infinity'){
+		alivenessSorter.pop();
+	}
+	console.log(alivenessSorter);
+	//2. Greatest happiness on avg. w/
+	var greatestHappiness = alivenessSorter.pop();
+	console.log(greatestHappiness);
+	//3. Lowest aliveness on avg. w/
+	var lowestHappiness = alivenessSorter.shift();
+	console.log(lowestHappiness);
+	//Create an Object that contains the total counter variables to then sort which one was most/least frequent
+	var counterObject = {'Alone': aloneCounter, 'Core': coreTotalCounter, 'Acquaintances': acquaintancesTotalCounter, 'Colleagues': colleaguesTotalCounter, 'Strangers': strangersTotalCounter};
+
+	//create a new object that will hold the sorted people frequencies from highest to lowest
+	var sortable = [];
+	for (var value in counterObject){
+		sortable.push([value, counterObject[value]]);
+		sortable.sort(function(a, b) {return a[1] - b[1]});
+	};
+
+	//4. Least Frequently with:
+	//remove the first object in the array - which has the lowest frequency
+	var leastFrequent = sortable.shift();
+	console.log(leastFrequent);
+	//5. Most frequently w/: 
+	//remove the last object in the array - which has the highest frequency
+	var mostFrequent = sortable.pop(); 
+
+	console.log("most often with: " + mostFrequent + "least often with: " + leastFrequent + "happiest with (on avg): " + greatestHappiness+ "least happy with (on avg):"+ lowestHappiness )
+
+
+}	
 
 //Calculates and display on page basic activity stats for the time range selected
 function activityStats(){
