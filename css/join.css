@@ -1,0 +1,134 @@
+body{
+	background-color: rgb(247,245,242);
+}
+
+header{
+	background-color: white;
+}
+
+.highlightedNav{
+	background-color: #f1720c;
+	/*border: 1px solid rgb(80, 84, 70);*/
+}
+
+.highlightedNav:hover{
+	background-color: #f1720c;
+}
+.highlightedNav:hover a{
+	color: white;
+}
+
+.highlightedNav a{
+	color: rgb(243, 240, 240);
+}
+
+.highlightedNav a:hover{
+	color: #F3F0F0;
+
+}
+
+.centeredTextDiv h2:nth-child(1){
+	line-height: 1;
+} 
+
+.centeredTextDiv p:nth-child(2){
+	padding-bottom: 15px;
+} 
+
+.signUpContainer{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 5px;
+	text-align: left;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.signUpContainer p{
+	line-height: 1.5;
+}
+
+.signUpContainer form{
+	padding: 25px 30px;
+}
+
+.signUpHeaderBar{
+	padding: 0px;
+	width: 100%;
+	background-color: #f1720c;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.signUpHeaderBar h3{
+	color: white;
+	text-align: left;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.signUpHeaderBar div:first-child{
+	text-align: center;
+	display: inline-block;
+	height: 100%;
+	width: 10%;
+	background-color: rgb(136, 53, 8);
+	border-top-left-radius: 10px;
+}
+
+.signUpHeaderBar div:nth-child(2){
+	text-align: left;
+	margin-left: 20px;
+	display: inline-block;
+	height: 100%;
+	width: 80%;
+	background-color: #f1720c;
+}
+
+.unCompleted {
+	background-color: rgb(46,109,94);
+	margin-top: 0px;
+	border-radius: 0px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.unCompleted h3{
+	color: white;
+}
+
+.unCompleted div:first-child{
+	background-color: rgb(80,191,164);
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 10px;
+}
+
+.unCompleted div:nth-child(2){
+
+	background-color: rgb(46,109,94);
+}
+#formButtonArea{
+	width: 450px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.radio{
+	float: left;
+	width: 50px;
+	padding: 10px 10px 0px 0;
+	display: inline-block;
+}
+
+#emailVerificationCode{
+	text-align: center;
+}
+
+#footerTop{
+	background-color: white;
+}
+
+#footerBottom{
+	background-color: rgb(247,245,242);
+}

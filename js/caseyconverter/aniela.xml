@@ -1,0 +1,2499 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Joanne Casey</Author>
+  <LastAuthor>Joanne Casey</LastAuthor>
+  <Created>2013-11-04T01:21:17Z</Created>
+  <LastSaved>2013-11-04T01:21:41Z</LastSaved>
+  <Version>12.256</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16600</WindowHeight>
+  <WindowWidth>24800</WindowWidth>
+  <WindowTopX>-20</WindowTopX>
+  <WindowTopY>-20</WindowTopY>
+  <Date1904/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m639861304">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#003366"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m639861324">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#003366"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m639861344">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#003366"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m639861364">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#003366"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m639861384">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#003366"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m639861404">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#003366"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#003366"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#003366"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#003366"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#003366"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#000000"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s46">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#000000"/>
+   <NumberFormat ss:Format="h:mm:ss"/>
+  </Style>
+  <Style ss:ID="s48">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s51">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0"/>
+  </Style>
+  <Style ss:ID="s53">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Size="13.0"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="20" ss:ExpandedRowCount="100" x:FullColumns="1"
+   x:FullRows="1">
+   <Row ss:AutoFitHeight="0" ss:Height="34.0">
+    <Cell ss:MergeDown="1" ss:StyleID="m639861304"><Data ss:Type="String">Person</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m639861324"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m639861344"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m639861364"><Data ss:Type="String">Activity</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m639861384"><Data ss:Type="String">Who I'm with</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m639861404"><Data ss:Type="String">(1-7) aliveness/fulfillment</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+   </Row>
+   <Row ss:Height="14.0">
+    <Cell ss:Index="4" ss:StyleID="s35"><Data ss:Type="String">broad</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">narrow</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s37"><Data ss:Type="String">Notes</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Photos</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="14.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T11:21:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-review</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleague</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T12:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">admin-computer</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T13:20:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-companywide</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T16:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">admin-computer</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">Why are you happier and more focused doing admin work now than earlier today? I completed a task and figured out how to do it better - automate our reporting, less work moving forward</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T18:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-strategy</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleague</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T20:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">cooking/eating</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T11:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">conferance</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T12:25:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-strategy</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T13:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">driving</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T14:40:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues, core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T16:35:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">nap</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T18:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">driving</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T19:45:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">social</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">Talking with emily</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T21:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">stretching</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T22:12:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">lounging</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T10:56:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">drafting-bd</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T12:51:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-team</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T14:45:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-bd</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T16:14:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-walking</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T18:11:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">massage</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">stranger</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">I finally found someone good ;)</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T19:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">cooking</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">I've been on edge all week...Feeling better but just have some constant low level of anxiety</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T22:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">social</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">Sitting with Emily. Happy bc I did my rap lesson and I'm proud of myself :-)</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T09:45:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">waking up</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T11:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Maintenance</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">cleaning</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T18:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">watching sports</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Aniela_10_19_18.00.jpg</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T19:39:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">food+beverage</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">coffee with mama</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T11:25:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">cooking, food+beverage</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">cores</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T12:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-strategy</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues, core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T14:40:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">research-primary</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core, colleagues</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T17:15:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-planning</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Aniela_10_21_17.15.jpg</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T18:12:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">food+beverage</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">Thai food &amp; gossiping</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Aniela_10_21_18.12.jpg</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T21:25:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Listening to music, plotting</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Aniela_10_21_21.25.jpg</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T12:53:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-brainstorming</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Aniela_10_22_12.53.jpg</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T15:15:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">waiting-meeting</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T18:06:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">wrap-up, reflecting</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">wrapping up my day and thinking about everything accomplished,</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Aniela_10_22_18.06.jpg</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T23:22:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">lounging</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">core</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Aniela_10_22_23.22.jpg</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T10:20:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">admin-computer</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Aniela_10_23_10.20.jpg</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T13:01:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">meeting-project design</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleague</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Aniela_10_23_13.01.jpg</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="49.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T18:13:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">bed prep</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">getting ready for bed in RWANDA</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Aniela_10_24.18.13.jpg</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T09:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">food+beverage</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="65.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T19:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">food+beverage, listening to music</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">friends</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="33.0">
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="DateTime">2013-10-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="DateTime">1904-01-01T14:30:00.000</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">Work</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">planning-meeting</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">alone</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">planning a meeting but nothing to do</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:Height="17.0">
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>0</PaperSizeIndex>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

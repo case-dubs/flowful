@@ -1,0 +1,70 @@
+
+
+
+/*
+
+Default Text Color - #45494d;, rgb(69,73,77), p, h2, h4
+
+Header Text:  #626263, rgb (98,98,99) - Size - h3
+
+Photo(background) Text Header h1
+
+h1 38px, H2 30px,  h3 20px uppercase, h4 bold 14px, text 14px, line height 1.5
+
+BUTTONS - Graphic Background:
+
+Main - Turqouise: #50bfa4, rgb(180,191,164) - shaddowed version rgb(80,191,164);
+
+Secondary - Orange: #f1720c, rgb(241, 114, 12) - shadowed version rgb(136, 53, 8);
+
+BACKGROUNDS:
+
+Grey: #f7f5f2 rgb(247,245,242)
+
+*/
+
+/*splash area*/
+
+#splashContainer{
+	position: relative;
+	background: url('/flowful/images/happy_woman2.jpg') no-repeat;
+	background-size: cover;
+	height: 550px;
+	top: 0px;
+	width: 100%;
+}
+
+/*centered
+
+#heroMessage{
+	width: 65%;
+	height: 350px;
+	margin: 0px auto;
+	padding-top: 225px;
+	color: #F3F0F0;
+	min-width: 650px;
+}*/
+
+#heroMessage{
+	width: 35%;
+	height: 350px;
+	float: right;
+	padding-top: 125px;
+	/*background-color: rgba(0,0,0,.5);*/
+	color: #F3F0F0;
+	margin-right: 75px;
+	min-width: 400px;
+}
+
+#heroMessage h1 {
+	font-weight: normal;
+	line-height: 1;
+	font-size: 36px;
+}
+
+#heroMessage h2 {
+	font-weight: normal;
+	line-height: 1.25;
+	font-size: 20px;
+}
+

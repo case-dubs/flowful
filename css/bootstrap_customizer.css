@@ -1,0 +1,198 @@
+/*
+
+Default Text Color - #45494d;, rgb(69,73,77), p, h2, h4
+
+Header Text:  #626263, rgb (98,98,99) - Size - h3
+
+Photo(background) Text Header h1
+
+h1 38px, H2 30px,  h3 20px uppercase, h4 bold 14px, text 14px, line height 1.5
+
+BUTTONS - Graphic Background:
+
+Main - Turqouise: #50bfa4, rgb(180,191,164) - shaddowed version rgb(46,109,94);
+
+Secondary - Orange: #f1720c, rgb(241, 114, 12) - shadowed version rgb(136, 53, 8);
+
+BACKGROUNDS:
+
+Grey: #f7f5f2 rgb(247,245,242)
+
+*/
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 38px;
+	/*font-weight: bold;*/
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	color: white;
+}
+
+h2 {
+	font-size: 30px;
+	letter-spacing: 1.25px;
+	color: rgb(69,73,77);
+}
+
+h3, li {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.25px;
+	color: rgb(98,98,99);
+}
+
+h3 a, li a{
+	color: rgb(98,98,99);
+}
+
+h3 a:hover, li a:hover{
+	color: rgb(180,191,164);
+}
+
+h4{
+	font-weight: bold;
+	font-size: 14px;
+	color: rgb(69,73,77);
+}
+
+p{
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0,85,128);
+}
+
+a:hover{
+	color: rgb(8,6,94);
+	text-decoration: none;
+}
+
+.container{
+	padding: 0 75px;
+}
+
+/*customized buttons*/
+
+button a{
+	color: white;
+}
+
+.greyBackground{
+	background-color: rgb(247,245,242);
+}
+
+button {
+	background-color:  #50bfa4;
+	border-radius: 10px;
+	color: white;
+	padding: 20px 35px;
+	border: none;
+	text-transform: uppercase;
+}
+
+.shadedowedOrange{
+	background-color: rgb(136, 53, 8);
+}
+
+.shadowedBlue{
+	background-color: rgb(80,191,164)
+}
+
+button:hover{
+	background-color: rgba(0, 0, 0, .5);
+	border: none;
+	color: white;
+}
+
+.orangeButton{
+	background-color: rgb(241, 114, 12);
+}
+
+.clearButton{
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid #45494d;
+	color: #45494d;
+}
+
+.clearButton:hover{
+	background-color: rgba(0, 0, 0, .5);
+	border: none;
+}
+
+.hugeButton{
+	width: 175px;
+	float: center;
+	height: 65px;
+	border-radius: 10px;
+	display: inline;
+	position: relative;
+	margin: 20px 10px;
+}
+
+/*Highlighted tab within the nav*/
+
+.whiteHeader{
+	width: 100%;
+	color: #50bfa4;
+	background-color: white;
+	right: 0px;
+}
+
+.accountNav{
+	float: left;
+	margin-top: 5px;
+	width: 35%;
+}
+
+.accountNav li{
+	margin: 20px 10px 0px 10px;
+}
+
+.highlightedNav{
+	background-color: #50bfa4;
+	/*border: 1px solid rgb(80, 84, 70);*/
+	width: 100px;
+	vertical-align: baseline;
+	height: 30px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.highlightedNav:hover{
+	background-color: white;
+}
+.highlightedNav:hover a{
+	color: #50bfa4;;
+}
+
+.highlightedNav a{
+	color: white;
+}
+
+.unHighlightedNav a:hover{
+	font-weight: bold;
+	color: #50bfa4;
+}
+
+.accountPlaceholder{
+	width: 15%;
+	display: inline-block;
+	float: right;
+	padding-top: 15px;
+}
+
+.bodyPlaceholder{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.bodyPlaceholder img{
+	width: 90%
+}

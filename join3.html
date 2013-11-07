@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flowful</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/join1.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/template.css">
+	<link rel="stylesheet" type="text/css" href="css/join.css">
+</head>
+<body>
+	<header>
+			<h2 id="logo"><a href="/Flowful">Flowful</a></h2>
+			<ul id="nav">
+				<li><a href="tour">How it Works</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="login">Login</a></li>
+				<li><a href="join">Get Started</a></li>
+			</ul>
+	</header>
+	
+	<div class="centeredTextDiv clearFixedNav">
+		<h2>Welcome to the Flowful community!</h2>
+		<p>Please follow the steps below to get started.</p>
+		<div class="signUpContainer">
+			<div class="signUpHeaderBar">
+				<div>
+					<h3>1.</h3>
+				</div>
+				<div>
+					<h3>Register your cell</h3>
+				</div>
+			</div>
+		</div>
+		<div class="signUpContainer" >
+			<div class="signUpHeaderBar">
+				<div>
+					<h3>2.</h3>
+				</div>
+				<div>
+					<h3>Link your cell</h3>
+				</div>
+			</div>
+		</div>
+		<div class="signUpContainer" >
+			<div class="signUpHeaderBar">
+				<div>
+					<h3>3.</h3>
+				</div>
+				<div>
+					<h3>Configure your account</h3>
+				</div>
+			</div>
+			<form>
+				<label for="DOB">Date of Birth<sup>*</sup></label><br>
+				<input type="date" name="DOB" id="DOB" placeholder="YYYY-MM-DD"><br>
+				<label for="male">Gender<sup>*</sup></label><br>
+				<label class="radio" for="male">Male</label>
+				<input class="radio" type="radio" id="male" name="gender" value="male">
+				<label class="radio" for="female">Female</label>
+				<input class="radio" type="radio" id="female" name="gender" value="female"><br><br>
+				<label for="profession">Profession<sup>*</sup></label><br>
+				<input type="text" id="profession" name="profession"><br>
+				<label for="myLocations">My Locations</label>
+				<p>We use geo-location to identify routine environments where you’re reporting from.</p>
+				<input type="text" name="myLocations" id="myLocations"><br>
+				<label for="trackingFrequency">Tracking Frequency<sup>*</sup></label><br>
+				<select name="trackingFrequency" id="trackingFrequency">
+					<option value="10">10 times per day</option>
+					<option value="5">5 times per day</option>
+					<option value="3">3 times per day</option>
+					<option value="1">1 times per day</option>
+				</select><br>
+				<p>Tracking Times</p>
+				<label for="morningStart">Morning Start</label>
+				<input class="narrowInput" type="text" name="morningStart" id="morningStart">
+				<label for="eveningStop">Evening Stop</label>
+				<input class="narrowInput" type="text" name="eveningStop" id="eveningStop">
+				<div id="formButtonArea">
+					<p>By clicking "continue" you agree to our <a href="#">	terms of service</a>.</p>
+					<button id="signUp3">Continue</button>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+	<footer>
+		<div id="footerTop">
+			<div id="footerContainer">
+				<div class="footerList">
+					<h3>Flowful</h3>
+						<ul>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="tour.html">How it Works</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="privacy.html">Privacy</a></li>
+						</ul>
+				</div>
+				<div class="footerList">
+					<h3>Get the latest Updates</h3>
+					<form>
+						<input type="text" id="emailUpdates" placeholder="Your email address">
+						<button id="emailUpdatesButton"></button>
+					</form>
+				</div>
+				<div class="footerList">
+					<h3>Follow Us</h3>
+				</div>
+			</div>
+		</div>
+		<div id="footerBottom">
+			<p> (c) 2013 Flowful. All right reserved. See our <a href="#">terms of use.</a></p>
+		</div>
+	</footer>
+</body>
+</html>

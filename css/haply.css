@@ -1,0 +1,261 @@
+body {
+	font-family: "proxima-nova-alt",Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: rgb(69,73,77);
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+/*Font styling*/
+
+h1 {
+	font-size: 38px;
+	/*font-weight: bold;*/
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	color: white;
+}
+
+h2 {
+	font-size: 30px;
+	letter-spacing: 1.25px;
+	color: rgb(69,73,77);
+}
+
+h3, li {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.25px;
+	color: rgb(98,98,99);
+}
+
+h3 a, li a{
+	color: rgb(98,98,99);
+}
+
+h3 a:hover, li a:hover{
+	color: rgb(180,191,164);
+}
+
+h4{
+	font-weight: bold;
+	font-size: 14px;
+	color: rgb(69,73,77);
+}
+
+p{
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0,185,128);
+}
+
+a:hover{
+	color: rgb(8,6,94);
+}
+
+/*button templates*/
+
+button a{
+	color: white;
+}
+
+.greyBackground{
+	background-color: rgb(247,245,242);
+}
+
+button {
+	background-color:  #50bfa4;
+	border-radius: 10px;
+	color: white;
+	padding: 20px 10px;
+	border: none;
+}
+
+.shadedowedOrange{
+	background-color: rgb(136, 53, 8);
+}
+
+.shadowedBlue{
+	background-color: rgb(80,191,164)
+}
+
+button:hover{
+	background-color: rgba(0, 0, 0, .5);
+	border: none;
+	color: white;
+}
+
+.orangeButton{
+	background-color: rgb(241, 114, 12);
+}
+
+.clearButton{
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid #45494d;
+	color: #45494d;
+}
+
+.clearButton:hover{
+	background-color: rgba(0, 0, 0, .5);
+	border: none;
+}
+
+.hugeButton{
+	width: 150px;
+	float: center;
+	height: 65px;
+	border-radius: 10px;
+	display: inline;
+	position: relative;
+	margin: 20px 10px;
+}
+
+/*Highlighted tab within the nav*/
+
+.highlightedNav{
+	background-color: rgba(80, 84, 70, .3);
+	/*border: 1px solid rgb(80, 84, 70);*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+.highlightedNav:hover{
+	background-color: rgba(80, 84, 70, .3);
+}
+.highlightedNav:hover a{
+	color: white;
+}
+
+.highlightedNav a{
+	color: rgb(243, 240, 240);
+}
+
+.highlightedNav a:hover{
+	color: #F3F0F0;
+
+}
+
+/*Nav styling*/
+
+header {
+	z-index: 1;
+	display: block;
+	position: relative;
+	height: 75px;
+	/*border-bottom: 1px solid #e0e0e0;*/
+	background: #F3F0F0;
+	width: 100%;
+	min-width: 550px;
+}
+
+#logo{
+	position: relative;
+	float: left;
+	display: inline-block;
+	top: -10px;
+	padding: 0px 75px;
+}
+
+header h2 a {
+	/*color: #504a46;*/
+	font-weight: 500;
+	display: inline;
+	float: left;
+	/*position: absolute;*/
+	text-align: left;
+	margin-top: 0px;
+	color: rgb (80, 84, 70);
+	/*color: rgb(51,190,165);*/
+}
+
+header h2 a:hover{
+	color: white;
+}
+
+header ul{
+	position: relative;
+	display: inline-block;
+	margin: 25px 75px 15px 80px;
+	float: right;
+	/*text-align: right;*/
+}
+
+header ul li {
+	display: inline;
+	padding: 0px 15px;
+}
+
+
+/*splash area*/
+
+#splashContainer{
+	position: relative;
+	background: url('/haply/images/happy_woman2.jpg') no-repeat;
+	background-size: cover;
+	height: 550px;
+	top: 0px;
+	width: 100%;
+}
+
+/*centered
+
+#heroMessage{
+	width: 65%;
+	height: 350px;
+	margin: 0px auto;
+	padding-top: 225px;
+	color: #F3F0F0;
+	min-width: 650px;
+}*/
+
+#heroMessage{
+	width: 35%;
+	height: 350px;
+	float: right;
+	padding-top: 125px;
+	/*background-color: rgba(0,0,0,.5);*/
+	color: #F3F0F0;
+	margin-right: 75px;
+	min-width: 350px;
+}
+
+#heroMessage h1 {
+	font-weight: normal;
+	line-height: 1;
+	font-size: 36px;
+}
+
+#heroMessage h2 {
+	font-weight: normal;
+	line-height: 1.25;
+	font-size: 20px;
+}
+
+
+
+/*#learnMore{
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid white;
+	color: white;
+}
+
+#learnMore:hover{
+	background-color: rgba(0, 0, 0, .5);
+	border: none;
+}
+
+#getStarted{
+	background-color: rgb(51,190,165);
+	border: none;
+	color: white;
+}
+
+#getStarted:hover{
+	background-color: rgba(0, 0, 0, .5);
+	border: none;
+}*/

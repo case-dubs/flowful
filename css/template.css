@@ -1,0 +1,401 @@
+/*
+
+Default Text Color - #45494d;, rgb(69,73,77), p, h2, h4
+
+Header Text:  #626263, rgb (98,98,99) - Size - h3
+
+Photo(background) Text Header h1
+
+h1 38px, H2 30px,  h3 20px uppercase, h4 bold 14px, text 14px, line height 1.5
+
+BUTTONS - Graphic Background:
+
+Main - Turqouise: #50bfa4, rgb(180,191,164) - shaddowed version rgb(46,109,94);
+
+Secondary - Orange: #f1720c, rgb(241, 114, 12) - shadowed version rgb(136, 53, 8);
+
+BACKGROUNDS:
+
+Grey: #f7f5f2 rgb(247,245,242)
+
+*/
+
+body {
+	font-family: "proxima-nova-alt",Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: rgb(69,73,77);
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+/*Font styling*/
+
+h1 {
+	font-size: 38px;
+	/*font-weight: bold;*/
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	color: white;
+}
+
+h2 {
+	font-size: 30px;
+	letter-spacing: 1.25px;
+	color: rgb(69,73,77);
+}
+
+h3, li {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.25px;
+	color: rgb(98,98,99);
+}
+
+h3 a, li a{
+	color: rgb(98,98,99);
+}
+
+h3 a:hover, li a:hover{
+	color: rgb(180,191,164);
+}
+
+h4{
+	font-weight: bold;
+	font-size: 14px;
+	color: rgb(69,73,77);
+}
+
+p{
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0,85,128);
+}
+
+a:hover{
+	color: rgb(8,6,94);
+}
+
+.container{
+	padding: 0 75px;
+}
+
+/*button templates*/
+
+button a{
+	color: white;
+}
+
+.greyBackground{
+	background-color: rgb(247,245,242);
+}
+
+button {
+	background-color:  #50bfa4;
+	border-radius: 10px;
+	color: white;
+	padding: 20px 35px;
+	border: none;
+	text-transform: uppercase;
+}
+
+.shadedowedOrange{
+	background-color: rgb(136, 53, 8);
+}
+
+.shadowedBlue{
+	background-color: rgb(80,191,164)
+}
+
+button:hover{
+	background-color: rgba(0, 0, 0, .5);
+	border: none;
+	color: white;
+}
+
+.orangeButton{
+	background-color: rgb(241, 114, 12);
+}
+
+.clearButton{
+	background-color: rgba(0, 0, 0, 0);
+	border: 2px solid #45494d;
+	color: #45494d;
+}
+
+.clearButton:hover{
+	background-color: rgba(0, 0, 0, .5);
+	border: none;
+}
+
+.hugeButton{
+	width: 175px;
+	float: center;
+	height: 65px;
+	border-radius: 10px;
+	display: inline;
+	position: relative;
+	margin: 20px 10px;
+}
+
+/*Highlighted tab within the nav*/
+
+.whiteHeader{
+	width: 100%;
+	color: #50bfa4;
+	background-color: white;
+}
+
+.highlightedNav{
+	background-color: #50bfa4;;
+	/*border: 1px solid rgb(80, 84, 70);*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+
+.highlightedNav:hover{
+	background-color: white;
+}
+.highlightedNav:hover a{
+	color: #50bfa4;;
+}
+
+.highlightedNav a{
+	color: white;
+}
+
+
+/*Nav styling*/
+
+.fixedNav{
+	position: fixed;
+	background-color: #f7f5f2;
+	/*border-bottom: 1px solid #f7f5f2;*/
+	min-width: 950px;
+}
+
+header {
+	z-index: 1;
+	display: block;
+	position: relative;
+	height: 75px;
+	/*border-bottom: 1px solid #e0e0e0;*/
+	background: #F3F0F0;
+	width: 100%;
+	min-width: 550px;
+}
+
+/*#flowfulLogo{
+	margin: 0px 75px;
+	width: 100px;
+}*/
+
+#flowfulLogo{
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-top: -8px;
+	left: 75px;
+	width: 15%; 
+}
+
+.accountNav{
+	display: inline-block;
+	width: 35%;
+	float: center;
+	padding-top: 5px;
+/*	margin: 0 auto;*/
+}
+
+.subHeader{
+	position: fixed;
+	margin-top: 75px;
+	width: 100%;
+	background-color: #f7f5f2;
+	border-top: solid 1px #50bfa4;
+	border-bottom: solid 1px #50bfa4;
+}
+
+.subHeader ul{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px 0px;
+	min-width: 900px;
+}
+
+.subHeader li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #50bfa4;
+}
+
+.subHeader a{
+	color: #50bfa4;
+}
+
+.subHeader a li:hover{
+	color: #45494d;
+}
+
+header h2 a {
+	/*color: #504a46;*/
+	font-weight: 500;
+	display: inline;
+	float: left;
+	/*position: absolute;*/
+	text-align: left;
+	margin-top: 0px;
+	color: #50bfa4;
+	/*color: rgb(51,190,165);*/
+}
+
+header h2 a:hover{
+	color: white;
+}
+
+header ul{
+	position: relative;
+	display: inline-block;
+	margin: 25px 75px 15px 80px;
+	float: right;
+	/*text-align: right;*/
+}
+
+header ul li {
+	display: inline;
+	padding: 0px 15px;
+}
+
+header li a:hover{
+	color: #50bfa4;
+}
+
+/*Main body templates*/
+
+.centeredTextDiv{
+	text-align: center;
+	width: 700px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+input{
+	height: 25px;
+	border: 1px solid rgba(98,98,99,.2);
+	width: 250px;
+	margin: 5px 20px 10px 0px;
+	padding: 5px 10px;
+}
+
+.narrowInput{
+	width: 100px;
+	margin-right: 15px;
+}
+
+.formValidationMessage{
+	display: inline-block;
+	width: 250px;
+	margin-left: 20px;
+	color: rgb(241, 114, 12)
+}
+
+/*footer*/
+
+footer {
+	margin-top: 50px;
+	text-align: left;
+}
+
+/*#footerContainer{
+	width: 1040px;
+	margin: 0 auto;
+}*/
+
+#footerTop{
+	background-color: rgb(247,245,242);
+	height: 250px;
+	line-height: 2;
+}
+
+.footerWhiteTop{
+	background-color: white;
+	height: 250px;
+	line-height: 2;
+	border-top: 1px solid rgb(247,245,242);
+}
+
+.footerList{
+	width: 30%;
+	float: left;
+	margin-top: 20px;
+	text-align: left;
+	display: inline-block;
+}
+
+.footerList:nth-child(3){
+	text-align: right;
+	margin-right: 75px;
+}
+
+.footerList h3{
+	margin-left: 75px;
+}
+
+.footerList ul{
+	list-style-type: none;
+	margin-left: none;
+	margin-left: 35px;
+}
+
+.footerList li{
+	text-transform: none;
+	text-align: left;
+}
+
+.footerList li a:hover{
+	color: #50bfa4;
+}
+
+#emailUpdates{
+	position: relative;
+	color: white;
+	background-color: #50bfa4;
+	border-radius: 10px;
+	border: none;
+	height: 45px;
+	width: 250px;
+	margin-left: 75px;
+}
+
+#emailUpdatesButton{
+	position: relative;
+	background-color: transparent;
+	padding: 0;
+	border-radius: 0;
+	width: 0; 
+	height: 0; 
+	border-top: 13px solid transparent;
+	border-bottom: 13px solid transparent;
+	border-left: 13px solid white;
+	margin-left: 310px;
+	top: -58px;
+}
+
+#footerBottom{
+	background-color: white;
+	height: 50px;
+	padding-left: 75px;
+	padding-top: 10px;
+}
+
+.footerGrayBottom{
+	background-color: rgb(247,245,242);
+	height: 50px;
+	padding-left: 75px;
+	padding-top: 10px;
+}

@@ -1,0 +1,1157 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Joanne Casey</LastAuthor>
+  <Created>2013-11-03T22:39:10Z</Created>
+  <Version>12.256</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16220</WindowHeight>
+  <WindowWidth>24800</WindowWidth>
+  <WindowTopX>-20</WindowTopX>
+  <WindowTopY>420</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s15">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:Color="#003366"/>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:Color="#003366"/>
+   <Interior ss:Color="#FFF58C" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <NumberFormat ss:Format="h:mm:ss;@"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <NumberFormat ss:Format="m/d/yyyy;@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="116" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s15" ss:DefaultColumnWidth="103.0"
+   ss:DefaultRowHeight="12.75">
+   <Column ss:Index="2" ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="57.0"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="63.0"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="69.0"/>
+   <Column ss:Index="6" ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="63.0"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="69.0"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="492.0"/>
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="141.0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:MergeDown="1" ss:StyleID="s18"><Data ss:Type="String">Person</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s18"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s18"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s18"><Data ss:Type="String">Activity</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s18"><Data ss:Type="String">Who I'm with</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s18"><Data ss:Type="String">(1-7) aliveness/fulfillment</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="4" ss:StyleID="s18"><Data ss:Type="String">broad</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">narrow</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"><Data ss:Type="String">Notes</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Photos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T01:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell><Data ss:Type="String">Lunch</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T08:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">bathroom</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T09:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T10:20:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">hobbies</Data></Cell>
+    <Cell><Data ss:Type="String">email</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T15:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">email</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I just got an email with my flight itinerary for job training in Nov. excited ;)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T20:50:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">driving (from meditation)</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Daily Influencers: Replying to your evening question: receiving the email with offer letter and flight info; seeing my friends at dharma talk, and seeing my parents at the end of the day&#45;-these were all plus happiness factors. Detractor: A tough conversation with a client- not so much added happiness, but was a great lesson but added sense of purpose.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T08:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">driving (to work)</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T09:50:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">email</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T11:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">operations</Data></Cell>
+    <Cell><Data ss:Type="String">stranger</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I just dropped off keys to a lady who was very grateful for extra level of service. Walking back alone.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T13:16:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">reading</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Sitting and reading a book.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T15:15:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">conversation</Data></Cell>
+    <Cell><Data ss:Type="String">colleague</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I'm speaking with my colleague. Small talk.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T16:55:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">paperwork</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Finishing up paperwork on my own.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:50:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">food+drinks, social</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Waiting for her friend with a key as she is pet sitting. And Im hoping to make it for poetry reading at 7p</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T22:50:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">moving</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Moving stuff from one room to another, getting ready for remodel.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T08:15:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">morning-prep</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Slept in and just about to rise from bed, alone. I'm feeling 5-5-2-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T12:15:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">driving</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Driving To downtown from a massage ;) 7-6-3-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T15:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">hobbies</Data></Cell>
+    <Cell><Data ss:Type="String">volunteering</Data></Cell>
+    <Cell><Data ss:Type="String">acquaintances</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Volunteering for Sunday streets with 3 people, putting together SFMTA signs for no parking.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T17:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">hobbies</Data></Cell>
+    <Cell><Data ss:Type="String">spiritual</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Just finished OMing. Big smile. Heart open.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T19:50:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">break, food+drinks</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Having a break from work, eating a sandwich alone.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T22:07:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">operations</Data></Cell>
+    <Cell><Data ss:Type="String">colleague</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">At work, mad rush to bring cars back.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="Number">10.0</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">pampering</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I'm in the waiting room, drinking tea. Feeling relaxed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T13:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">food+drinks, social</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T15:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">operations</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Getting ready for another work event as parking concierge ;) by mySelf.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">break</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Taking a break. I'm by myself at the job now. Feeling like a 5-6-2-2. Little anxiety about where to move vehicles etc..</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_19_18.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T20:40:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">break</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I'm having a break, chillin with a coworker. Someone came to help</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_19_20.40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="Number">8.0</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">idle</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Lounging in bed, deciding on what to do, reflecting</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T08:10:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">food+drinks, breakfast</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Good morning Casey. Feeling awesome at Four Barrel coffee to be awake and anticipating my time with a men's circle diad exercise. 7-6-3-1. Have a beautiful Sunday.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_20_8.10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T10:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">conversation</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I'm enjoying this diad in conversation with a men's circle brother at the church parking lot.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_20_10.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T12:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">conversation</Data></Cell>
+    <Cell><Data ss:Type="String">acquaintances</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Talking with people getting to church and parking cars ;) I got invited to an event by Gus the guest of honor.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_20_12.00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T14:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">food+drinks, social</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I am having fun, lunch and drinks with a friend watching the niner game at Jillian's.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_20_14.00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:20:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">church</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Hanging out with my folks at church about to start</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_20_18.20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T22:50:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">event</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Hanging out at an 80th bday party for our neighbor with my folks.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_20_22.50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T14:20:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">lunch</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Just finished lunch. Slow easy day at work. Alone at the moment. Syncing new music from iTunes to phone.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_21_14.20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:20:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">hobbies</Data></Cell>
+    <Cell><Data ss:Type="String">creative project - errands</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Have been busy looking for a stuffed toy for my photo book project. Been driving to all these thrift stores throughout the city. Feeling tired at the same time</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_21_18.20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T22:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">food+drinks</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Enjoying dinner after the amazing dance with a friend. Feeling quite nourished now.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_21_22.00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="Number">9.0</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">operations</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I'm at work at USF's Koret lot. But in the am, Im hanging out in the cafe. This photo is in front of the gym where the cafe is.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_21_9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="Number">11.0</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">computer work</Data></Cell>
+    <Cell><Data ss:Type="String">colleague</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Checking and writing emails. My colleague next to me doing the same. 5-5-2-1 feeling sleepy.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_21_11</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T12:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">food+drinks</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Just dropped off keys to a teacher and picked up free lunch. Having a picnic by myself. Feeling abundant.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_22_12.00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T15:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">computer work</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Feeling productive and focused</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_22_15.00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T17:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">event</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">At Gus konstin's dedication with my mom. Having fun and time together</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_22_17.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">driving</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">On the fwy alone on my way to YUZ. Feeling a bit anxious about being on time.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_22_18.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T21:40:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">social, food+drinks</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Hanging out at Hayes n kebab after way seeking mind talk. Feeling loved.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_23_21.40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T08:21:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">driving</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Driving to work alone. At a red light.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_21_8.20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T10:15:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">computer work</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Feeling productive. After finding out wifi access in the parking lot, I'm in upper lot on computer doing emails and such.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_23 10.15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T17:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">parking lot</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Just finishing up and packing up at work. Alone. 7-5-2-1. Feeling good about the day. Got my bike repaired by a mobile bike repair pretty awesome.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_23 17.00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T23:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">social, food+drinks</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">'m having a fun time with a friend at her place. Alone at the moment eating dessert.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_23_23.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T08:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">food-breakfast</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">9.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Oh what a beautiful morning. Oh what a beautiful day. Waking up to coffee after an amazing night.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_24_8.32</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T11:24:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">computer work</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.5</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Writing emails and working inside the car where it's warm. I still feel floaty and glowing from last night's fun.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_24_11.24</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T13:39:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">food, computer work</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Enjoying lunch and sending emails ;) alone. 7-6-3-1. Enjoying the views as well.</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_24_13.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T16:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">computer work</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">At my &quot;office&quot; working and enjoying the sun</Data></Cell>
+    <Cell><Data ss:Type="String">sameul 10_24_16.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T21:50:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">Social, food+drinks</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">sameul 10_24_21.50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T13:45:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">hobbies</Data></Cell>
+    <Cell><Data ss:Type="String">hanging w/ friends and kids</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">samuel 10_25_13.30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Samuel</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T15:28:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">hobbies</Data></Cell>
+    <Cell><Data ss:Type="String">creative project</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Hanging out and playing with Lea. So great to be with these kids</Data></Cell>
+    <Cell><Data ss:Type="String">samuel 10_25_15.45</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T11:21:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-review</Data></Cell>
+    <Cell><Data ss:Type="String">colleague</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T12:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">admin-computer</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T13:20:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-companywide</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T16:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Work</Data></Cell>
+    <Cell><Data ss:Type="String">admin-computer</Data></Cell>
+    <Cell><Data ss:Type="String">Alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Why are you happier and more focused doing admin work now than earlier today? I completed a task and figured out how to do it better - automate our reporting, less work moving forward</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-strategy</Data></Cell>
+    <Cell><Data ss:Type="String">colleague</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-16T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T20:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">cooking/eating</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T11:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Work</Data></Cell>
+    <Cell><Data ss:Type="String">conferance</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T12:25:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-strategy</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T13:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">driving</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T14:40:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues, core</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T16:35:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">nap</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">driving</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T19:45:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">social</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Talking with emily</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T21:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">stretching</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-17T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T22:12:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">lounging</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T10:56:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">drafting-bd</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T12:51:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-team</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T14:45:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-bd</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T16:14:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-walking</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:11:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">massage</Data></Cell>
+    <Cell><Data ss:Type="String">stranger</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I finally found someone good ;)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T19:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">cooking</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">I've been on edge all week...Feeling better but just have some constant low level of anxiety</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-18T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T22:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">leisure</Data></Cell>
+    <Cell><Data ss:Type="String">social</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Sitting with Emily. Happy bc I did my rap lesson and I'm proud of myself :-)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T09:45:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell><Data ss:Type="String">waking up</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T11:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Maintenance</Data></Cell>
+    <Cell><Data ss:Type="String">cleaning</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell><Data ss:Type="String">watching sports</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">Aniela_10_19_18.00.jpg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-19T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T19:39:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell><Data ss:Type="String">food+beverage</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">coffee with mama</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T11:25:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell><Data ss:Type="String">cooking, food+beverage</Data></Cell>
+    <Cell><Data ss:Type="String">cores</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T12:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-strategy</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues, core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T14:40:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">research-primary</Data></Cell>
+    <Cell><Data ss:Type="String">core, colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T17:15:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-planning</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">Aniela_10_21_17.15.jpg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:12:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell><Data ss:Type="String">food+beverage</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Thai food &amp; gossiping</Data></Cell>
+    <Cell><Data ss:Type="String">Aniela_10_21_18.12.jpg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-21T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T21:25:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell><Data ss:Type="String">Listening to music, plotting</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">Aniela_10_21_21.25.jpg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T12:53:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-brainstorming</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">Aniela_10_22_12.53.jpg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T15:15:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">waiting-meeting</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:06:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">wrap-up, reflecting</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">wrapping up my day and thinking about everything accomplished,</Data></Cell>
+    <Cell><Data ss:Type="String">Aniela_10_22_18.06.jpg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-22T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T23:22:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell><Data ss:Type="String">lounging</Data></Cell>
+    <Cell><Data ss:Type="String">core</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">Aniela_10_22_23.22.jpg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T10:20:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">admin-computer</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">Aniela_10_23_10.20.jpg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T13:01:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">work</Data></Cell>
+    <Cell><Data ss:Type="String">meeting-project design</Data></Cell>
+    <Cell><Data ss:Type="String">colleague</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">Aniela_10_23_13.01.jpg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-24T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T18:13:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell><Data ss:Type="String">bed prep</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">6.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">getting ready for bed in RWANDA</Data></Cell>
+    <Cell><Data ss:Type="String">Aniela_10_24.18.13.jpg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T09:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Work</Data></Cell>
+    <Cell><Data ss:Type="String">food+beverage</Data></Cell>
+    <Cell><Data ss:Type="String">colleagues</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-25T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T19:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Leisure</Data></Cell>
+    <Cell><Data ss:Type="String">food+beverage, listening to music</Data></Cell>
+    <Cell><Data ss:Type="String">friends</Data></Cell>
+    <Cell><Data ss:Type="Number">7.0</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell><Data ss:Type="String">Aniela</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="DateTime">2013-10-26T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="DateTime">1899-12-31T14:30:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Work</Data></Cell>
+    <Cell><Data ss:Type="String">planning-meeting</Data></Cell>
+    <Cell><Data ss:Type="String">alone</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">planning a meeting but nothing to do</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.0">
+    <Cell ss:Index="8" ss:StyleID="Default"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>2</TopRowBottomPane>
+   <SplitVertical>3</SplitVertical>
+   <LeftColumnRightPane>3</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
