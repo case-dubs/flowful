@@ -1,6 +1,8 @@
 //When the document is ready, create the empty table
 $(document).ready(function() {
-
+	var anielaAliveness = [];
+	var samuelAliveness = [];
+	var chart;
 	//This ajax call gets the .xml
 		$.ajax({
 			url: '/flowful/js/caseyconverter/flowfulPilotV1.xml',//The url plus '.xml'
@@ -10,16 +12,115 @@ $(document).ready(function() {
 				//declare an array of objects called Samuel, which contains all of the data for Samuel
 				var Samuel = myData.people.Samuel;
 				var SamuelData = Samuel.entries;
-				console.log(SamuelData);
+				alivenessGraphDataGenerator(SamuelData, samuelAliveness, Samuel);
+				//console.log(SamuelData);
 				var Aniela = myData.people.Aniela;
 				var AnielaData = Aniela.entries;
+				alivenessGraphDataGenerator(AnielaData, anielaAliveness);
+				initialGraphGenerator(AnielaData, anielaAliveness, Aniela, SamuelData, samuelAliveness, Samuel);
+				
+				console.log(AnielaData);
+				console.log(anielaAliveness);
+				console.log(samuelAliveness);
 				//alivenessStats(SamuelData);
-				peopleStats(SamuelData);
+				peopleStats(AnielaData);
+				alivenessStats(AnielaData);
+				alivenessDisplayGenerator(AnielaData);
+				peopleDisplayGenerator(AnielaData);
+				console.log(AnielaData.avgAliveness)
+				$('#friends').on('click', function(){
+					//need to figure out how to make chart equal to a variable so then I can add or remove series, like below
+					chart.series[1].hide()
+					friendComparer(AnielaData, anielaAliveness, Aniela, SamuelData, samuelAliveness, Samuel);
+				});
+				//object that is an array of objects in the form of year, mo, day
+
+				
+
+				
 			});
+
+	//SAMPLE highcharts chart:
+
+	
 
 });
 
 /*Functions for the top graph - parameters for these equations are likely (start date, end date) depending on how the time duration is set - if not using an api call*/
+//Generates the stats display on the left side of the graph (on load and when clicked)
+function alivenessDisplayGenerator(individualUserData){
+	$('#flowState').append('Average Flow Level: <strong>' + individualUserData.avgAliveness + '</strong> <br>'+ 'Highest Flow State: <strong>' + individualUserData.highestAliveness + '</strong> <br>' + "Lowest Flow State: <strong>" + individualUserData.lowestAliveness + "</strong>");
+}
+
+function peopleDisplayGenerator(individualUserData){
+	$('#people').append('Most Frequently With: <strong>' + individualUserData.mostFrequentlyW[0] + '</strong> <br>'+  'Greatest Moments With: <strong>' + individualUserData.greatestHappinessW[0] + '</strong> <br>' + 'Lowest Moments With: <strong>' + individualUserData.lowestHappinessW[0] + "</strong>" )
+
+}
+
+//still not functioning...
+function friendComparer(individualUserData, userAlivenessArray, user, individualUserData2, userAlivenessArray2, user2){
+	console.log('inside friend comparer');
+	$('#highChartsContainer').hide();
+	alivenessGraphDataGenerator(individualUserData2);
+	initialGraphGenerator(individualUserData, userAlivenessArray, user, individualUserData2, userAlivenessArray2, user2);
+}
+//TBD
+function activitiesDisplayGenerator(individualUserData){
+	$('#activities').append('')
+}
+//pushes user alivesnnes data into an array - to be used in generating the initial user graph
+
+function alivenessGraphDataGenerator(individualUserData, userAlivenessArray){
+	for (var i=0; i<individualUserData.length; i++){
+
+	//var dateAliveness = "Date.UTC(" + (individualUserData[i].date) + "), " + parseInt(individualUserData[i].aliveness);
+	//userAlivenessArray.push(Date.parse(individualUserData[i].date),	parseInt(individualUserData[i].aliveness));
+	//userAlivenessArray.push(Date.parse(individualUserData[i].date + " " + individualUserData[i].time), parseInt(individualUserData[i].aliveness));
+	userAlivenessArray.push(parseInt(individualUserData[i].aliveness));
+	}
+};
+
+//Generates the initial account landing page highcharts graph - displaying aliveness over time - , 
+function initialGraphGenerator(individualUserData, userAlivenessArray, user, individualUserData2, userAlivenessArray2, user2){
+	
+	$('#highChartsContainer').highcharts({	
+	  	chart: {
+                type: 'spline'
+            },
+        title: '',
+	    xAxis: {
+	        type: 'datetime'
+	    },
+	    yAxis: {
+	        min: 1,
+	        max: 7,
+	        gridLineWidth: 0,
+	        color: '#f7f5f2',
+	        plotLines: [{
+	            value: individualUserData.avgAliveness,
+	        }]
+	    },
+	    tooltip: {
+	        valueSuffix: "- Flow Level",
+	    },
+	    plotOptions: {
+	    	spline: {
+	    		lineWidth: 2, 
+	    	}
+	    },
+
+	    series: [{
+	        name: user.name,
+	        data: userAlivenessArray,
+	        
+	    	},
+	   	{
+	        name: user2.name,
+	        data: userAlivenessArray2,
+	    	}
+	    ]
+	});
+}
 
 //To be used when page loads and when user modifies the start and end date measured. Determines the start and end date for the data being measured. This will be reused in both the first two sections of the page
 function dateRangeCalculator(){
@@ -57,7 +158,7 @@ function alivenessStats(individualUserData){
 
 	//Get Avg. Aliveness: divide the total aliveness by the number of entries where aliveness was reported
 	var avgAliveness = Math.round(totalAliveness/counter * 10)/10;
-	
+	individualUserData.avgAliveness = avgAliveness;
 
 	//2. Highest aliveness reported
 	
@@ -70,7 +171,8 @@ function alivenessStats(individualUserData){
 			highestAliveness = individualUserData[i].aliveness;
 		}
 	}
-	console.log(highestAliveness);
+	//console.log(highestAliveness);
+	individualUserData.highestAliveness = highestAliveness;
 
 	//3. Lowest aliveness
 
@@ -84,7 +186,7 @@ function alivenessStats(individualUserData){
 			lowestAliveness = individualUserData[i].aliveness;
 		}
 	}
-	console.log(lowestAliveness);
+	individualUserData.lowestAliveness = lowestAliveness;
 
 }
 
@@ -198,22 +300,24 @@ function peopleStats(individualUserData){
 		alivenessSorter.push([value, alivenessObject[value]]);
 		alivenessSorter.sort(function(a, b) {return a[1] - b[1]});
 	};
-	console.log(alivenessSorter);
+	//console.log(alivenessSorter);
 	//Check whether any of the AlivenessAvg's have a value of "Infinity", which would mean there were 0 instances that they were reported. 
 	//If "Infinity" exists, remove that from the Object-array
 	if(alivenessSorter[(alivenessSorter.length-1)][1] == 'Infinity'){
 		alivenessSorter.pop();
 	}
-	console.log(alivenessSorter);
+	//console.log(alivenessSorter);
 	//2. Greatest happiness on avg. w/
 	var greatestHappiness = alivenessSorter.pop();
-	console.log(greatestHappiness);
+	individualUserData.greatestHappinessW = greatestHappiness;
+	//console.log(greatestHappiness);
 	//3. Lowest aliveness on avg. w/
 	var lowestHappiness = alivenessSorter.shift();
-	console.log(lowestHappiness);
+	individualUserData.lowestHappinessW = lowestHappiness;
+	//console.log(lowestHappiness);
 	//Create an Object that contains the total counter variables to then sort which one was most/least frequent
 	var counterObject = {'Alone': aloneCounter, 'Core': coreTotalCounter, 'Acquaintances': acquaintancesTotalCounter, 'Colleagues': colleaguesTotalCounter, 'Strangers': strangersTotalCounter};
-
+	console.log(counterObject);
 	//create a new object that will hold the sorted people frequencies from highest to lowest
 	var sortable = [];
 	for (var value in counterObject){
@@ -224,10 +328,11 @@ function peopleStats(individualUserData){
 	//4. Least Frequently with:
 	//remove the first object in the array - which has the lowest frequency
 	var leastFrequent = sortable.shift();
-	console.log(leastFrequent);
+	//console.log(leastFrequent);
 	//5. Most frequently w/: 
 	//remove the last object in the array - which has the highest frequency
 	var mostFrequent = sortable.pop(); 
+	individualUserData.mostFrequentlyW = mostFrequent;
 
 	console.log("most often with: " + mostFrequent + "least often with: " + leastFrequent + "happiest with (on avg): " + greatestHappiness+ "least happy with (on avg):"+ lowestHappiness )
 
@@ -350,7 +455,7 @@ function parseXML(data){
 			
 			
 			//Log that we are going to create data for the new person and their name
-			console.log("New person: " + tmpName);
+			//console.log("New person: " + tmpName);
 			
 			//Create an object for the person and set it into the data under their name
 			allData.people[tmpName] = {
@@ -416,7 +521,7 @@ function parseXML(data){
 	
 	
 	//Log the object we now have
-	console.log(allData);
+	//console.log(allData);
 	//Give it back to the calling function
 	return allData;
 }

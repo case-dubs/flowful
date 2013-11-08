@@ -3,35 +3,75 @@
 <head>
 	<title>Flowful</title>
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+	<script type="text/javascript" src="js/JQDateRangeSlider-withRuler-min.js"></script>
+	<script type="text/javascript" src="js/highstock.js"></script>
 	<script type="text/javascript" src="js/accountInsights.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/template.css">
 	<link rel="stylesheet" type="text/css" href="css/account.css">
+	<link rel="stylesheet" type="text/css" href="css/JQRangeClassic-min.css">
 </head>
 <body>
 	<header class="whiteHeader fixedNav">
-			<img id="flowfulLogo" src="images/flowful_logo.png">
+			<a href="/flowful"><img id="flowfulLogo" src="images/flowful_logo.png"></a>
 			<ul class="accountNav">
 				<li class="highlightedNav"><a href="account/insights">Insights</a></li>
 				<li><a href="account/community">My Circle</a></li>
 			</ul>
 			<div class="accountDropDown">
-				<img src="images/caseyProfilePhoto.jpg">
-				<a href="#"><h4>Casey Wilson</h4></a>
+				<img id="anielaPhoto" src="images/kuzon_aniela.jpg">
+				<a href="#"><h4>Aniela Kuzon</h4></a>
 				<div class="arrow-down"></div>
 			</div>
+	
+		<div class="subHeader">
+			<ul class="accountNav">
+				<a href="#accountInsightsContainer"><li>Dashboard</li></a>
+				<a href="#section2"><li>Patterns</li></a>
+				<a href="#"><li>Yin & Yang of Me</li></a>
+			</ul>
+		</div>
 	</header>
-	<div class="subHeader">
-		<ul class="accountNav">
-			<a href="#"><li>Dashboard</li></a>
-			<a href="#"><li>Patterns</li></a>
-			<a href="#"><li>Yin & Yang of Me</li></a>
-		</ul>
-	</div>
-	<div id="bodyPlaceholder">
-		<img id="accountInsights" src="images/account_insights.png">
-	</div>
+	<div class="bodyContainer" id="accountInsightsContainer">
+		<h3 id="happinessDashboard">My Flow Dashboard</h3>
+		<div class="bodyFullSection" id="graphSection">
 
+			<h3 >My Snapshot</h3> <button type="button" id="compareWFriends" class="highLighted">Compare with Friends<span> +</span></button><br><br>
+	  		<div id="slider"></div>
+	  		<div class="mainGraphContainer">
+	  			<div class="leftGraphColumn">
+	  				<div class="graphSider selected" id="flowState">
+	  					<h4>Flow State</h4>
+	  				</div>
+	  				<div class="graphSider" id="acitivities">
+	  					<h4>Activities</h4>
+	  					<p class="comingSoon">Coming Soon!</p>
+	  				</div>
+	  				<div class="graphSider" id="friends">
+	  					<h4>Friend Comparer</h4>
+	  					<p class="comingSoon">Coming Soon!</p>
+	  				</div>
+	  			</div>
+	  			<div id="highChartsContainer"></div>
+	  			<div class="rightGraphColumn">
+	  				<div class="graphSider" id="health">
+	  					<h4>Health & Habits</h4>
+	  					<p class="comingSoon">Coming Soon!</p>
+	  				</div>
+	  				<div class="graphSider selected" id="people">
+	  					<h4>People</h4>
+	  				</div>
+	  			</div>
+	  		</div>
+	  		
+		</div>
+		<br id="section2"><br><br>
+		<h3 id="environmentHeader">You and Your Environment</h3>
+		<div id="bodyPlaceholder">
+			<img id="accountInsights" src="images/account_insights2.png">
+		</div>
+	</div>
 	<footer>
 		<div class="footerWhiteTop">
 			<div id="footerContainer">
@@ -61,5 +101,10 @@
 			<p> (c) 2013 Flowful. All right reserved. See our <a href="#">terms of use.</a></p>
 		</div>
 	</footer>
+	 <script>
+    //<!--
+      $("#slider").dateRangeSlider();
+    //-->
+    </script>
 </body>
 </html>

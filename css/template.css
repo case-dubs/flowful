@@ -173,8 +173,9 @@ button:hover{
 
 .fixedNav{
 	position: fixed;
-	background-color: #f7f5f2;
-	/*border-bottom: 1px solid #f7f5f2;*/
+	background-color: white;
+	/*background-color: #f7f5f2;*/
+	border-bottom: 1px solid #f7f5f2;*/
 	min-width: 950px;
 }
 
@@ -200,7 +201,8 @@ header {
 	display: inline-block;
 	margin-top: -8px;
 	left: 75px;
-	width: 15%; 
+	width: 15%;
+	z-index: 3; 
 }
 
 .accountNav{
@@ -213,9 +215,10 @@ header {
 
 .subHeader{
 	position: fixed;
-	margin-top: 75px;
+	margin-top: 0px;
 	width: 100%;
-	background-color: #f7f5f2;
+	background-color: white;
+	/*background-color: #f7f5f2;*/
 	border-top: solid 1px #50bfa4;
 	border-bottom: solid 1px #50bfa4;
 }

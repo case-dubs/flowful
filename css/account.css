@@ -1,3 +1,26 @@
+.bodyContainer{
+	width: 100%;
+	padding-top: 150px;
+	margin-bottom: -50px;
+	background-color: rgb(247,245,242);
+}
+
+.bodyContainer h3{
+	padding-bottom: 25px;
+}
+
+#environmentHeader{
+	margin-bottom: -100px;
+}
+
+.bodyFullSection{
+	width: 1150px;
+	padding: 50px 0px 75px;
+	margin: 0 auto;
+	border-radius: 10px;
+	background-color: white;
+}
+
 .accountPlaceholder{
 	display: inline-block;
 	width: 15%;
@@ -48,3 +71,86 @@
 	border-right: 8px solid transparent;
 	border-top: 8px solid #626263;
 }
+
+#compareWFriends{
+	float: center;
+	display: inline-block;
+	background-color: rgba(98,98,99,.3);
+	color: white;
+	padding: -20px 0px 0px 0px;
+	margin-left: 35px;
+	margin-top: -20px;
+	width: 270px;
+	height: 50px;
+	vertical-align: text-top;
+}
+
+#compareWFriends:hover{
+	color: white;
+	background-color: rgb(98,98,99);
+}
+
+#graphSection h3{
+	padding-left: 30px;
+	margin-top: -25px;
+	float: center;
+	display: inline-block;
+	text-align: left;
+}
+
+#highChartsContainer, #slider{
+	width: 63%;
+	float: center;
+	margin: 0 auto;
+	padding-top: 20px;
+	display: inline-block;
+}
+
+#slider{
+	width: 60%;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.mainGraphContainer{
+	width: 95%;
+	float: center;
+	margin: 0 auto;
+}
+
+.leftGraphColumn{
+	width: 15%;
+	height: 375px;
+	float: left;
+	display: inline-block;
+}
+
+.rightGraphColumn{
+	width: 15%;
+	height: 375px;
+	float: right;
+	display: inline-block;
+}
+
+.rightGraphColumn div , .leftGraphColumn div{
+	padding: 20px 10px;
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+	border: 1px solid rgba(247,245,242,.5);
+}
+
+.rightGraphColumn div h4, .leftGraphColumn div h4{
+	text-align: center;
+}
+
+.comingSoon{
+	text-align: center;
+	color: white;
+	padding: 0px 0px;
+	border-radius: 10px;
+	background-color: rgb(241, 114, 12);
+}
+
+.graphSider:hover, .selected{
+	background-color: rgba(247,245,242,.5);
