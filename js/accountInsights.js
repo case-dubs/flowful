@@ -16,9 +16,9 @@ $(document).ready(function() {
 				//console.log(SamuelData);
 				var Aniela = myData.people.Aniela;
 				var AnielaData = Aniela.entries;
-				alivenessGraphDataGenerator(AnielaData, anielaAliveness);
-				initialGraphGenerator(AnielaData, anielaAliveness, Aniela, SamuelData, samuelAliveness, Samuel);
-				
+				alivenessGraphDataGenerator(AnielaData, anielaAliveness, Aniela);
+				initialGraphGenerator(AnielaData, anielaAliveness, Aniela); //, SamuelData, samuelAliveness, Samuel
+				console.log(Aniela);
 				console.log(AnielaData);
 				console.log(anielaAliveness);
 				console.log(samuelAliveness);
@@ -30,13 +30,25 @@ $(document).ready(function() {
 				console.log(AnielaData.avgAliveness)
 				$('#friends').on('click', function(){
 					//need to figure out how to make chart equal to a variable so then I can add or remove series, like below
-					chart.series[1].hide()
-					friendComparer(AnielaData, anielaAliveness, Aniela, SamuelData, samuelAliveness, Samuel);
+					 var chart = $('#highChartsContainer').highcharts();
+					 console.log(samuelAliveness);
+
+					 console.log(chart);
+
+
+					 //samuelAliveness[0].data = [[Date.UTC(2013,9,16), 4], [Date.UTC(2013,9,25), 9]];
+					 console.log(samuelAliveness[0].data)
+
+
+       				 chart.addSeries(samuelAliveness[0]);
+       				 console.log(chart);
+					//friendComparer(AnielaData, anielaAliveness, Aniela, SamuelData, samuelAliveness, Samuel);
+					chart.redraw();
 				});
 				//object that is an array of objects in the form of year, mo, day
 
 				
-
+				console.log(anielaAliveness);
 				
 			});
 
@@ -70,30 +82,69 @@ function activitiesDisplayGenerator(individualUserData){
 }
 //pushes user alivesnnes data into an array - to be used in generating the initial user graph
 
-function alivenessGraphDataGenerator(individualUserData, userAlivenessArray){
+function alivenessGraphDataGenerator(individualUserData, userAlivenessArray, user){
+	//Object that will hold the total data for the user to be pushed inside the userAlivenessArray - format required is [{ name: , data:}]
+	var holderObject = new Object();
+	//array that will hold the user data points
+	var name = user.name;
+	holderObject.name = name;
+	holderObject.type = "spline";
+	var dataArray = [];
 	for (var i=0; i<individualUserData.length; i++){
 
-	//var dateAliveness = "Date.UTC(" + (individualUserData[i].date) + "), " + parseInt(individualUserData[i].aliveness);
-	//userAlivenessArray.push(Date.parse(individualUserData[i].date),	parseInt(individualUserData[i].aliveness));
-	//userAlivenessArray.push(Date.parse(individualUserData[i].date + " " + individualUserData[i].time), parseInt(individualUserData[i].aliveness));
-	userAlivenessArray.push(parseInt(individualUserData[i].aliveness));
+	//Need to parse the string into seperate year , mo , date
+	var intArray = individualUserData[i].date.split(',');
+	var timeArray = individualUserData[i].time.split(':');
+	//var dateAliveness = "[Date.UTC(" + (individualUserData[i].date) + "), " + parseInt(individualUserData[i].aliveness) + "]";
+	//Save data as [UTC(year,mo,day),aliveness#]:
+	var dateAliveness = [Date.UTC(
+			parseInt(intArray[0]),//Year
+			(parseInt(intArray[1])-1),//Month (*offset by one because 0-11)
+			parseInt(intArray[2]),//Day
+			parseInt(timeArray[0]),//Hour
+			parseInt(timeArray[1]),//Minutes
+			parseInt(timeArray[2]) //Seconds
+		),parseInt(individualUserData[i].aliveness)];
+	
+	//console.log(dateAliveness);
+
+		//check whether any of the date instances are NaN
+		if(isNaN(dateAliveness[0])){
+
+		}
+		else{
+		//If !NaN, push this to the (aliveness) dataArray:
+		dataArray.push(dateAliveness);
+		}
 	}
+	//console.log(dataArray);
+	//push the dataArray into an object that will hold both the name: and data: (array);
+	holderObject.data = dataArray;
+	//push the object into the userAlivenessArray
+	userAlivenessArray.push(holderObject)
+	console.log(userAlivenessArray);
 };
 
 //Generates the initial account landing page highcharts graph - displaying aliveness over time - , 
-function initialGraphGenerator(individualUserData, userAlivenessArray, user, individualUserData2, userAlivenessArray2, user2){
+function initialGraphGenerator(individualUserData, userAlivenessArray, user){ //, individualUserData2, userAlivenessArray2, user2
 	
 	$('#highChartsContainer').highcharts({	
 	  	chart: {
-                type: 'spline'
+                type: 'spline',
+                //backgroundColor: 'rgb(247,245,242)',
             },
         title: '',
 	    xAxis: {
-	        type: 'datetime'
+	        type: 'datetime',
+	        /*dateTimeLabelFormats: { // don't display the dummy year
+                month: '%e. %b',
+                year: '%b'
+                
+            }*/
 	    },
 	    yAxis: {
 	        min: 1,
-	        max: 7,
+	        max: 8.5,
 	        gridLineWidth: 0,
 	        color: '#f7f5f2',
 	        plotLines: [{
@@ -109,17 +160,13 @@ function initialGraphGenerator(individualUserData, userAlivenessArray, user, ind
 	    	}
 	    },
 
-	    series: [{
-	        name: user.name,
-	        data: userAlivenessArray,
-	        
-	    	},
-	   	{
-	        name: user2.name,
-	        data: userAlivenessArray2,
-	    	}
-	    ]
+	    series: [userAlivenessArray[0]] //[userAlivenessArray2[0],
 	});
+
+	////////////////////////////////////////////////////////////////////////////////////
+	console.log(">>>>         AGDHSJ <<<");
+	console.log(userAlivenessArray);
+	//console.log(userAlivenessArray2);
 }
 
 //To be used when page loads and when user modifies the start and end date measured. Determines the start and end date for the data being measured. This will be reused in both the first two sections of the page
